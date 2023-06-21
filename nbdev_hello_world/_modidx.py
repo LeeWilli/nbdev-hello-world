@@ -6,4 +6,9 @@ d = { 'settings': { 'branch': 'main',
                 'git_url': 'https://github.com/LeeWilli/nbdev-hello-world',
                 'lib_path': 'nbdev_hello_world'},
   'syms': { 'nbdev_hello_world.core': {'nbdev_hello_world.core.foo': ('core.html#foo', 'nbdev_hello_world/core.py')},
-            'nbdev_hello_world.hello': {'nbdev_hello_world.hello.say_hello': ('core.html#say_hello', 'nbdev_hello_world/hello.py')}}}
+            'nbdev_hello_world.hello': { 'nbdev_hello_world.hello.HelloSayer': ('core.html#hellosayer', 'nbdev_hello_world/hello.py'),
+                                         'nbdev_hello_world.hello.HelloSayer.__init__': ( 'core.html#hellosayer.__init__',
+                                                                                          'nbdev_hello_world/hello.py'),
+                                         'nbdev_hello_world.hello.HelloSayer.say': ( 'core.html#hellosayer.say',
+                                                                                     'nbdev_hello_world/hello.py'),
+                                         'nbdev_hello_world.hello.say_hello': ('core.html#say_hello', 'nbdev_hello_world/hello.py')}}}
